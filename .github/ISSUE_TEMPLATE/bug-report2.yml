@@ -1,0 +1,63 @@
+name: 不具合の報告2
+description: 不具合を報告するためのテンプレートです。脆弱性の報告は、脆弱性報告ルートを通じて提出してください。
+title: "[Bug]: "
+labels: ["不具合", "untriaged"]
+# projects: ["octo-org/1", "octo-org/44"]
+# assignees:
+#   - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        不具合の報告にご協力いただきありがとうございます！
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 期待する動作
+      description: 本来あるべき状態や動作を詳細に説明してください。
+    validations:
+      required: true
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: 現在の動作
+      description: 現在の状態や動作を説明してください。
+    validations:
+      required: true
+  - type: textarea
+    id: possible-solution
+    attributes:
+      label: 考えられる解決策
+      description: どのようにすれば不具合を解決できるか、案を記載してください。不明な場合は未記載で構いません。
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: 再現手順
+      description: 不具合の再現手順や入力値を記載してください。再現手順が不明な場合は未記載で構いません。
+      value: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境
+      description: 不具合の発生する環境やバージョンについて、詳細に記述してください。
+      value: |
+        - OS / バージョン : Windows xx / Linux (distribution) / macOS xx
+        - ブラウザー / バージョン : Chrome xx.xx / Edge xx.xx / FireFox xx.xx / Safari xx.xx
+        - その他 : ビルド環境などできる限り詳細な情報
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スタックトレース
+      description: スタックトレースなど、アプリケーションやビルドシステムの出力するログを添付してください。
+      render: text
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 行動規範
+      description: この問題を提出することで、あなたは私たちの[行動規範](https://example.com)に従うことに同意したことになります。
+      options:
+        - label: 私はこのプロジェクトの行動規範に同意します。
+          required: true
