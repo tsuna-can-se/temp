@@ -2,9 +2,9 @@
 name: 汎用テンプレート
 about: 汎用的なIssueのテンプレートです
 title: ''
-description: ''
 labels: ''
 assignees: ''
+
 ---
 
 <!-- textlint-disable @textlint-rule/require-header-id -->
