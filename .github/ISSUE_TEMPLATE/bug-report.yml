@@ -1,5 +1,5 @@
 name: 不具合の報告
-description: 不具合を報告するためのテンプレートです。脆弱性の報告は、脆弱性報告ルートを通じて提出してください。
+description: 不具合を報告するためのテンプレートです。脆弱性の報告は、[脆弱性報告ルート](https://example.com)を通じて提出してください。
 title: "[Bug]: "
 labels: ["不具合", "untriaged"]
 projects: ["demo"]
