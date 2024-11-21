@@ -16,7 +16,7 @@ body:
       label: 期待する動作
       description: 本来あるべき状態や動作を詳細に説明してください。
     validations:
-      required: false
+      required: true
   - type: textarea
     id: current-behavior
     attributes:
