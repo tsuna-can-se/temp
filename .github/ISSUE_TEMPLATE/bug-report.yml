@@ -2,7 +2,7 @@ name: 不具合の報告
 description: 不具合を報告するためのテンプレートです。脆弱性の報告は、脆弱性報告ルートを通じて提出してください。
 title: "[Bug]: "
 labels: ["不具合", "untriaged"]
-# projects: ["octo-org/1", "octo-org/44"]
+projects: ["demo"]
 # assignees:
 #   - octocat
 body:
