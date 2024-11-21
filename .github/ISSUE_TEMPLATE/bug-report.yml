@@ -54,10 +54,14 @@ body:
       description: スタックトレースなど、アプリケーションやビルドシステムの出力するログを添付してください。
       render: text
   - type: checkboxes
-    id: terms
+    id: confirmation
     attributes:
-      label: 行動規範
-      description: この問題を提出することで、あなたは私たちの[行動規範](https://example.com)に従うことに同意したことになります。
+      label: 確認
+      description: 以下の項目の確認および同意ができたら、チェックボックスをオンにしてください。
       options:
-        - label: 私はこのプロジェクトの行動規範に同意します。
+        - label: 報告しようとしている不具合が脆弱性に関するものではないことを確認しました。脆弱性の場合は [こちら](https://example.com) から報告してください。
+          required: true
+        - label: 報告しようとしている不具合が [Issue](https://example.com) および [Disucussions](https://example.com) に登録済みではないことを確認しました。
+          required: true
+        - label: 私たちの [行動規範](https://example.com) に従うことを同意します。
           required: true
