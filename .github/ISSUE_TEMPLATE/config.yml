@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: セキュリティアドバイザリ
     url: https://github.com/orgs/community/discussions
-    about: セキュリティ関連の問題、脆弱性の報告はこちらかお願いします。
+    about: セキュリティ関連の問題、脆弱性の報告はセキュリティアドバイザリのフォームからお願いします。
   - name: GitHub Security Bug Bounty bbbbbbbbbbbbb
     url: https://bounty.github.com/
     about: Please report security vulnerabilities here.
