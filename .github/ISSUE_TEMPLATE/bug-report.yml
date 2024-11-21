@@ -1,15 +1,13 @@
 name: 不具合の報告
-description: 不具合を報告するためのテンプレートです。脆弱性の報告は、[脆弱性報告ルート](https://example.com)を通じて提出してください。
+description: 不具合を報告するためのテンプレートです。セキュリティ関連の問題、脆弱性の報告は、セキュリティアドバイザリを通じて提出してください。
 title: "[Bug]: "
 labels: ["不具合", "untriaged"]
-projects: ["demo"]
-# assignees:
-#   - octocat
 body:
   - type: markdown
     attributes:
       value: |
         不具合の報告にご協力いただきありがとうございます！
+        報告したい不具合が機密情報を含むセキュリティ関連の問題、脆弱性である場合、 [Open a draft security advisory](https://exanple.com) から報告するようお願いします。
   - type: textarea
     id: expected-behavior
     attributes:
@@ -59,9 +57,9 @@ body:
       label: 確認
       description: 以下の項目の確認および同意ができたら、チェックボックスをオンにしてください。
       options:
-        - label: 報告しようとしている不具合が脆弱性に関するものではないことを確認しました。脆弱性の場合は [こちら](https://example.com) から報告してください。
+        - label: 報告しようとしている不具合がセキュリティ関連の問題、脆弱性に関するものではないことを確認しました。セキュリティ関連の問題、脆弱性の場合は [Open a draft security advisory](https://example.com) から報告してください。
           required: true
-        - label: 報告しようとしている不具合が [Issue](https://example.com) および [Disucussions](https://example.com) に登録済みではないことを確認しました。
+        - label: 報告しようとしている不具合が [Issue](https://example.com) および [Disucussions](https://example.com) に登録されていないことを確認しました。
           required: true
         - label: 私たちの [行動規範](https://example.com) に従うことを同意します。
           required: true
