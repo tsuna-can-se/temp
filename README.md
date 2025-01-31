@@ -19,4 +19,4 @@ aaa
 
 bbb
 
-[行動規範](./../?tab=coc-ov-file)
+[行動規範](./../../?tab=coc-ov-file)
