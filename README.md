@@ -19,4 +19,4 @@ aaa
 
 bbb
 
-[行動規範](./CODE_OF_CONDUCT.md)
+[行動規範](./?tab=coc-ov-file)
