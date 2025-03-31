@@ -1,1 +1,12 @@
 
+changelog:
+  categories:
+    - title: ':newspaper: features'
+      labels:
+        - 'feature'
+      exclude:
+        labels:
+          - dependencies
+    - title: ':label: dependencies'
+      labels:
+        - dependencies
