@@ -1,7 +1,7 @@
 
 changelog:
   categories:
-    - title: ':newspaper: features'
+    - title: ':newspaper: [features](https://github.com/tsuna-can-se/temp)'
       labels:
         - 'enhancement'
       exclude:
