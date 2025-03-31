@@ -3,7 +3,7 @@ changelog:
   categories:
     - title: ':newspaper: features'
       labels:
-        - 'feature'
+        - 'enhancement'
       exclude:
         labels:
           - dependencies
