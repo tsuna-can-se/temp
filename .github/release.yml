@@ -1,9 +1,15 @@
 
 changelog:
   categories:
-    - title: ':newspaper: [features](https://github.com/tsuna-can-se/temp)'
+    - title: ':newspaper: [target: A](https://github.com/tsuna-can-se/temp)'
       labels:
-        - 'enhancement'
+        - 'target: A'
+      exclude:
+        labels:
+          - dependencies
+    - title: ':newspaper: [target: B](https://github.com/tsuna-can-se/temp)'
+      labels:
+        - 'target: B'
       exclude:
         labels:
           - dependencies
