@@ -11,7 +11,15 @@ jobs:
       - name: Dependabot metadata
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v2
+
       - uses: actions/checkout@v4
+
+      - name: メジャーバージョンアップの場合は自動マージを行わない
+        if: steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major'
+        run: |
+          echo "メジャーバージョンアップのため、自動マージを行いません。"
+          exit 1
+
       - name: Approve a PR if not already approved
         run: |
           gh pr checkout "$PR_URL" # sets the upstream metadata for `gh pr status`
